@@ -39,14 +39,14 @@ export default function ScamWarning() {
               ))}
             </div>
 
-            {/* Aviso central */}
+         
             <div className="mt-8 p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
               <p className="text-center text-blue-800 dark:text-blue-300 font-medium">
                 La BNE nunca te solicitará estos datos 🛡️
               </p>
             </div>
 
-            {/* Contacto */}
+          
             <div className="mt-6 text-center">
               <p className="text-gray-600 dark:text-gray-300 mb-4">Puedes denunciar en la MESA DE AYUDA</p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

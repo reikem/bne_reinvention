@@ -49,7 +49,7 @@ export default function MotivationalSection() {
       className="py-16 bg-gradient-to-r from-slate-50 to-gray-50 dark:from-gray-800 dark:to-gray-900 transition-colors"
     >
       <div className="w-full px-4">
-        {/* encabezado */}
+       
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
             Inspírate y Crece Profesionalmente
@@ -59,24 +59,22 @@ export default function MotivationalSection() {
           </p>
         </div>
 
-        {/* carrusel */}
+       
         <Carousel className="w-full max-w-5xl mx-auto">
           <CarouselContent>
             {motivationalCards.map((card, index) => (
               <CarouselItem key={card.title} className="md:basis-1/2 lg:basis-1/2">
                 <Card className="h-full overflow-hidden group hover:shadow-xl dark:hover:shadow-2xl transition-all duration-300 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700">
                   <CardContent className="p-0">
-                    {/* bloque superior: gradiente + icono */}
+                  
                     <div
                       className={`h-48 w-full bg-gradient-to-r ${card.color}
                                   flex items-center justify-center relative`}
                     >
-                      {/* halo transparencia para resaltar al pasar encima */}
                       <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity bg-black" />
                       <card.icon className="h-12 w-12 text-white drop-shadow" />
                     </div>
 
-                    {/* texto */}
                     <div className="p-6">
                       <h4 className="font-bold text-xl mb-3 text-gray-900 dark:text-white">
                         {card.title}
@@ -98,7 +96,7 @@ export default function MotivationalSection() {
             ))}
           </CarouselContent>
 
-          {/* controles */}
+         
           <CarouselPrevious className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700" />
           <CarouselNext     className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700" />
         </Carousel>

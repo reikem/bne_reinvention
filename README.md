@@ -16,7 +16,7 @@
 | ---------------------------- | --------------------------------------------------------------- |
 | 🎨 **UI Moderna**            | Gradientes, animaciones y diseño 100 % responsive (+ shadcn/ui) |
 | 🌓 **Tema Claro / Oscuro**   | Selector Sol ☀︎ / Luna ☾ con persistencia `localStorage`        |
-| 🧭 **Tour interactivo**      | 7 pasos guiados con **Driver.js** y botón flotante 🎯           |
+
 | 📊 **Estadísticas animadas** | Valores en vivo con **CountUp** + **framer‑motion**             |
 | 💡 **Carrusel motivacional** | 4 tarjetas con gradiente e ícono centrado                       |
 | 🛡 **Antiestafas**           | Sección de seguridad con lista de buenas prácticas              |
@@ -68,14 +68,14 @@ src/
 
 ```bash
 # 1 Clona el repo
-$ git clone https://github.com/<tu‑usuario>/bne-redesign.git
+$ git clone https://github.com/reikem/bne-redesign.git
 $ cd bne-redesign
 
 # 2 Instala dependencias
 $ pnpm i      # ó npm / yarn
 
 # 3 Modo desarrollo
-$ pnpm dev    # abre http://localhost:3000
+$ pnpm dev    # abre http://localhost:5173
 ```
 
 \### Build producción
@@ -112,4 +112,4 @@ Optimizado para **mobile · tablet · desktop** usando breakpoints de Tailwind (
 
 ## 📄 Licencia
 
-MIT © 2025 — [@tu‑usuario](https://github.com/tu-usuario)
+MIT © 2025 — [@reikem](https://github.com/reikem)

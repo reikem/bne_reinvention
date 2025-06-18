@@ -38,7 +38,7 @@ const services: Service[] = [
 export default function Services() {
   return (
     <section id="services-section" className="py-16 bg-white dark:bg-gray-900 transition-colors">
-      <div className="w-full px-4"> {/* ← sin container / max-width */}
+      <div className="w-full px-4"> 
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Nuestros Servicios</h3>
           <p className="text-lg text-gray-600 dark:text-gray-300">

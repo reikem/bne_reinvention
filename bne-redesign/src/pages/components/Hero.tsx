@@ -36,7 +36,7 @@ export default function Hero() {
           </Button>
         </div>
 
-        {/* acciones rápidas */}
+     
         <div className="flex flex-wrap justify-center gap-3">
           {quick.map((q) => (
             <Badge
