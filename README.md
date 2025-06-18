@@ -5,7 +5,7 @@
 ![tailwind](https://img.shields.io/badge/TailwindCSS-3.0-38bdf8)
 ![mode](https://img.shields.io/badge/dark‑%2F‑light%20mode-toggle-success)
 
-![Imagen del proyecto](./imagen.png)
+![Imagen del proyecto](./image.png)
 
 > **Aviso legal**  
 > Este proyecto **no** está afiliado a la Bolsa Nacional de Empleo (BNE) de Chile. Es una **re‑imaginación** con fines educativos y de portafolio. Visite el sitio oficial en [https://www.bne.cl](https://www.bne.cl).
