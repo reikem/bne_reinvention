@@ -62,7 +62,7 @@ export default function MotivationalSection() {
        
         <Carousel className="w-full max-w-5xl mx-auto">
           <CarouselContent>
-            {motivationalCards.map((card, index) => (
+            {motivationalCards.map((card) => (
               <CarouselItem key={card.title} className="md:basis-1/2 lg:basis-1/2">
                 <Card className="h-full overflow-hidden group hover:shadow-xl dark:hover:shadow-2xl transition-all duration-300 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700">
                   <CardContent className="p-0">
