@@ -26,11 +26,11 @@ jobs:
       - run: npm ci
       - run: |
           npm run build
-          cp dist/index.html dist/404.html     # fallback SPA
-          touch dist/.nojekyll                 # desactiva Jekyll
+          cp docs/index.html docs/404.html
+          touch docs/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+         path: docs
 
   deploy:
     needs: build
