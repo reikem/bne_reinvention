@@ -1,15 +1,10 @@
 
-import './App.css'
+import './index.css'
 import { AuthLayout } from './auth/layout/AuthLayout'
 
-
 function App() {
-
-
   return (
     <AuthLayout />
-
-
   )
 }
 
