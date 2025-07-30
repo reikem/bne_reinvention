@@ -33,8 +33,8 @@ jobs:
       - name: Build
         run: |
           npm run build
-          cp dist/index.html dist/404.html     # SPA fallback
-          touch dist/.nojekyll                 # evita procesamiento Jekyll
+          cp dist/index.html dist/404.html     
+          touch dist/.nojekyll                 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
