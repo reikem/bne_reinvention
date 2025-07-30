@@ -115,3 +115,4 @@ Optimizado para **mobile · tablet · desktop** usando breakpoints de Tailwind (
 ## 📄 Licencia
 
 MIT © 2025 — [@reikem](https://github.com/reikem)
+**Link de la aplicación https://reikem.github.io/bne_reinvention/**
